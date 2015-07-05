@@ -3,7 +3,6 @@
 <head>
 <title>Projectile Motion</title>
 <link type="text/css" rel="stylesheet" href="css/Projectile Motion.css"/>
-<script type="text/javascript" src="js/Projectile Motion.js"></script>
 <script type="text/javascript" src="js/Vector.js"></script>
 </head>
 <body>
@@ -13,10 +12,10 @@
 			<input name="velocity" id="Velocity" type="text"/>
    
 			<label for="Angle">Angle in Degrees:</label>
-			<input name="angle" id="Angle" type="text" /> 
+			<input name="angle" id="Angle" type="text"/> 
 			
 			<label for="Height">Initial Height*:</label>
-			<input name="height" id="Height" type="text" /> 
+			<input name="height" id="Height" type="text" />
 			
 			<label for="Vertical">Vertical Plane Position*:</label>
 			<input name="vertical" id="Vertical" type="text" /> 
@@ -24,10 +23,11 @@
 			<label for="Final-Height">Landing Plane Height*:</label>
 			<input name="final-height" id="Final-Height" type="text" /> 
 			
-            <a href="#" class="myButton">Calculate</a>
+            <a href="#" onclick="calculate()" class="myButton">Calculate</a>
 		</div>
 	</form>
 	<p>*Optional Parameter</p>
     <canvas id="canvas"></canvas>
+	<script type="text/javascript" src="js/Projectile Motion.js"></script>
 </body>
 </html>
